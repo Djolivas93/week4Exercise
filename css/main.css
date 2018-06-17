@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.box {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .blue {
+    display: none;
+  }
+  .purple {
+    display: none;
+  }
+}
+
+@media (min-width:1000px) {
+  .box {
+    width: 100%;
+  }
+}
